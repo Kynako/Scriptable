@@ -2,7 +2,7 @@
  * iTunesSearchAPI.js
  * Copyright (c) 2021 Kynako
  * This software is released under the MIT License.
- * https://github.com/Kynako/Scriptable/blob/main/LICENSE
+ * https://github.com/Kynako/Scriptable/blob/main/iTunesSearchAPI/LICENSE
  *
  */
 
