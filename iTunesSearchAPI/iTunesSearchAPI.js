@@ -11,14 +11,22 @@ class iTunesSearchAPI {
     const url = 'https://itunes.apple.com/lookup'
               + this._buildQueryString(param);
     const r = new Request(url);
-    return r.loadJSON();
+    const json = await r.loadJSON();
+    return {
+      response: r.response,
+      json: json
+    };
   };
   
-  static search(param){
+  static async search(param){
     const url = 'https://itunes.apple.com/search'
               + this._buildQueryString(param);
     const r = new Request(url);
-    return r.loadJSON();
+    const json = await r.loadJSON();
+    return {
+      response: r.response,
+      json: json
+    };
   };
     
   static _buildQueryString(param){
