@@ -39,8 +39,7 @@ class Qiitable {
         response: r.response
       };
     } else {
-      // The {method} isn't supported
-      console.error("ERROR");
+      throw new Error("The {method} is unsupported. It should be 'GET', 'POST', 'PATCH' or 'DELETE'.");
     };
   };
   
