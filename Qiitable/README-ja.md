@@ -1,5 +1,6 @@
 # Qiitable
 [QiitaAPIv2](https://qiita.com/api/v2/docs)の[Scriptable](https://scriptable.app)向けラッパーライブラリです。
+[QiitaWidget/main/v1/Qiita.js](https://github.com/Kynako/QiitaWidget/blob/main/v1/QiitaWidget.js)を書き直しました。
 
 ## Usage
 [Qiitable.js](/Qiitable.js)を`iCloudDrive/Scriptable/`の下に配置してください。
