@@ -9,3 +9,7 @@ Alertベースの簡素なKeychain管理ツールです。
 ![Image](images/IMG_3.png)
 
 ![Image](images/IMG_4.png)
+
+## LICENSE
+
+[MIT license](https://github.com/Kynako/Scriptable-Scripts/blob/main/Simple-Keychain-Manager/LICENSE)
